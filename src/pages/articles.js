@@ -44,7 +44,7 @@ const articles = () => {
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
         <Layout className="pt-16">
-          <AnimatedText text="Words Can Change The World!" className="mb-16" />
+          <AnimatedText text="Some exciting articles..." className="mb-16" />
           <ul className="grid grid-cols-2 gap-16">
             <FeaturedArticle 
               title="Build A Custom Pagination Component In Reactjs From Scratch"              

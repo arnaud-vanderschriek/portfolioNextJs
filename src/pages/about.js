@@ -39,7 +39,7 @@ const about = () => {
         <title>About page</title>
         <meta name="description" content="any description" />
       </Head>
-      <main className="flex w-full flex-col items-center justify-content">
+      <main className="flex w-full flex-col items-center justify-content dark:text-light">
         <Layout className="pt-16"> 
           <AnimatedText text="The passion for web development" className="mb-16" />
           <div className="grid w-fulli grid-cols-8 gap-16">
@@ -69,19 +69,19 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={10} />+
                 </span>
-                <h2 className="text-2xl font-medium capitalize text-dark/75">satisfied clients</h2>
+                <h2 className="text-2xl font-medium capitalize text-dark/75 dark:text-light/75">satisfied clients</h2>
               </div>
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={5} />+
                 </span>
-                <h2 className="text-2xl font-medium capitalize text-dark/75">projects completed</h2>
+                <h2 className="text-2xl font-medium capitalize text-dark/75 dark:text-light/75">projects completed</h2>
               </div>
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={3} />+
                 </span>
-                <h2 className="text-2xl font-medium capitalize text-dark/75">years of experience</h2>
+                <h2 className="text-2xl font-medium capitalize text-dark/75 dark:text-light/75">years of experience</h2>
               </div>
             </div>
           </div>
