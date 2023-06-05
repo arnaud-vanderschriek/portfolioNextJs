@@ -41,7 +41,7 @@ const AnimatedText = ({text, className=""}) => {
             <motion.span key={word+"-"+index} className="inline-block" 
               variants={singleWord}
             >
-              {word}&nbsp;
+              {word}`&nbsp;`
             </motion.span>
           )
         }
