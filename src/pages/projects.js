@@ -45,7 +45,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
 const Projects = ({title, type, img, link, github}) => {
   return (
     <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid 
-      border-dark bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4"
+      border-dark bg-light p-6 relative dark:bg-light dark:border-light xs:p-4"
     >
       <Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden rounded-lg">
         <FramerImage src={img} alt={title} className="w-full h-auto"
