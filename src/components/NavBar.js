@@ -69,8 +69,8 @@ const NavBar = () => {
           <CustomLink href="/articles" title="Articles" className="ml-4" />
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
-          <motion.a href="https://Github.com" target={"_blank"} className="mr-2" whileHover={{y:-5}}><GithubIcon/></motion.a>
-          <motion.a href="https://linkedin.com" target={"_blank"} className="mx-2" whileHover={{y:-5}}><LinkedInIcon/></motion.a>
+          <motion.a href="https://github.com/arnaud-vanderschriek" target={"_blank"} className="mr-2" whileHover={{y:-5}}><GithubIcon/></motion.a>
+          <motion.a href="https://www.linkedin.com/in/arnaud-vanderschrieck" target={"_blank"} className="mx-2" whileHover={{y:-5}}><LinkedInIcon/></motion.a>
           <motion.a href="https://hackerrank.com" target={"_blank"} className="mx-2 dark:bg-light dark:rounded-lg p-0.5" whileHover={{y:-5}}><HackerRankIcon/></motion.a>
           <button 
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -99,8 +99,8 @@ const NavBar = () => {
       <CustomMobileLink href="/articles" title="Articles" className="" toggle={handleClick} />
       </nav>
       <nav className="flex items-center justify-center flex-wrap">
-        <motion.a href="https://Github.com" target={"_blank"} className="mr-2 bg-light dark:bg-dark rounded-lg" whileHover={{y:-5}}><GithubIcon/></motion.a>
-        <motion.a href="https://linkedin.com" target={"_blank"} className="mx-2" whileHover={{y:-5}}><LinkedInIcon/></motion.a>
+        <motion.a href="http://github.com/arnaud-vanderschriek" target={"_blank"} className="mr-2 bg-light dark:bg-dark rounded-lg" whileHover={{y:-5}}><GithubIcon/></motion.a>
+        <motion.a href="https://www.linkedin.com/in/arnaud-vanderschrieck" target={"_blank"} className="mx-2" whileHover={{y:-5}}><LinkedInIcon/></motion.a>
         <motion.a href="https://hackerrank.com" target={"_blank"} className="mx-2 bg-light dark:bg-light rounded-lg p-0.5" whileHover={{y:-5}}><HackerRankIcon/></motion.a>
         <button 
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
