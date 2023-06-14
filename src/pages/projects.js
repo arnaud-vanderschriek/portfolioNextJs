@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {GithubIcon} from "@components/Icons";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project2 from "../../public/images/projects/carhub.jpg"
 import { motion } from "framer-motion";
 
 
@@ -94,10 +95,10 @@ const projects = () => {
             </div> 
             <div className="col-span-6">
               <Projects
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
+                title="Car Hub Provider"
+                img={project2}
+                link="https://next-js-car-hub-rose.vercel.app/"
+                github="https://github.com/arnaud-vanderschriek/nextJsCarHub"
                 type="Featured Project"
               />
             </div> 
