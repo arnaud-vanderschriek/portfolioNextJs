@@ -71,7 +71,7 @@ const NavBar = () => {
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a href="https://github.com/arnaud-vanderschriek" target={"_blank"} className="mr-2" whileHover={{y:-5}}><GithubIcon/></motion.a>
           <motion.a href="https://www.linkedin.com/in/arnaud-vanderschrieck" target={"_blank"} className="mx-2" whileHover={{y:-5}}><LinkedInIcon/></motion.a>
-          <motion.a href="https://hackerrank.com" target={"_blank"} className="mx-2 dark:bg-light dark:rounded-lg p-0.5" whileHover={{y:-5}}><HackerRankIcon/></motion.a>
+          <motion.a href="https://www.hackerrank.com/arnaud_vds?hr_r=1" target={"_blank"} className="mx-2 dark:bg-light dark:rounded-lg p-0.5" whileHover={{y:-5}}><HackerRankIcon/></motion.a>
           <button 
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
             className={`ml-3 flex items-center justify-center rounded-full p-1 
@@ -101,7 +101,7 @@ const NavBar = () => {
       <nav className="flex items-center justify-center flex-wrap">
         <motion.a href="http://github.com/arnaud-vanderschriek" target={"_blank"} className="mr-2 bg-light dark:bg-dark rounded-lg" whileHover={{y:-5}}><GithubIcon/></motion.a>
         <motion.a href="https://www.linkedin.com/in/arnaud-vanderschrieck" target={"_blank"} className="mx-2" whileHover={{y:-5}}><LinkedInIcon/></motion.a>
-        <motion.a href="https://hackerrank.com" target={"_blank"} className="mx-2 bg-light dark:bg-light rounded-lg p-0.5" whileHover={{y:-5}}><HackerRankIcon/></motion.a>
+        <motion.a href="https://www.hackerrank.com/arnaud_vds?hr_r=1" target={"_blank"} className="mx-2 bg-light dark:bg-light rounded-lg p-0.5" whileHover={{y:-5}}><HackerRankIcon/></motion.a>
         <button 
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
           className={`ml-3 flex items-center justify-center rounded-full p-1 
