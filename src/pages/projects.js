@@ -7,6 +7,7 @@ import Image from "next/image";
 import {GithubIcon} from "@components/Icons";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
 import project2 from "../../public/images/projects/carhub.jpg"
+import project3 from "../../public/images/projects/youtubeclone.png"
 import { motion } from "framer-motion";
 
 
@@ -104,10 +105,10 @@ const projects = () => {
             </div> 
             <div className="col-span-6 sm:col-span-12">
               <Projects
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
+                title="YouTube Clone"
+                img={project3}
+                link="https://react-youtube-clone-two.vercel.app/"
+                github="https://github.com/arnaud-vanderschriek/react_youtube_clone"
                 type="Featured Project"
               />
             </div> 

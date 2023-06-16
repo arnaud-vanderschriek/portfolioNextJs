@@ -40,7 +40,7 @@ const about = () => {
         <meta name="description" content="any description" />
       </Head>
       <main className="flex w-full flex-col items-center justify-content dark:text-light">
-        <Layout className="pt-16"> 
+        <Layout className="pt-16  "> 
           <AnimatedText text="The passion for the web" className="mb-16 md:w-auto  lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
