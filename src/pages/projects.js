@@ -93,7 +93,7 @@ const projects = () => {
                 type="Featured Project"
               />
             </div> 
-            <div className="col-span-6">
+            <div className="col-span-6 sm:col-span-12">
               <Projects
                 title="Car Hub Provider"
                 img={project2}
@@ -102,7 +102,7 @@ const projects = () => {
                 type="Featured Project"
               />
             </div> 
-            <div className="col-span-6">
+            <div className="col-span-6 sm:col-span-12">
               <Projects
                 title="Crypto Screener Application"
                 img={project1}
@@ -112,12 +112,7 @@ const projects = () => {
               />
             </div> 
             <div className="col-span-12">
-              Features Project
-            </div> <div className="col-span-6">
-              Project-3
-            </div> 
-            <div className="col-span-6">
-              Project-4
+              Next Features Project coming soon... 
             </div> 
           </div>
         </Layout>

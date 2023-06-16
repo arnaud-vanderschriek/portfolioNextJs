@@ -28,5 +28,8 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# local swp files
+*.swp
+
 # vercel
 .vercel

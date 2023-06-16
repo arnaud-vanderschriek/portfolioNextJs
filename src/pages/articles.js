@@ -12,7 +12,7 @@ const FramerImage = motion(Image)
 
 const FeaturedArticle = ({img, title, time, summary, link}) => {
   return (
-    <li className="col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl">
+    <li className="col-span-1 mt-12 w-full p-4 bg-light border border-solid border-dark rounded-2xl">
       <Link href={link} target="_blank" className="w-full inline-block cursor-pointer overflow-hidden rounded-lg">
         <FramerImage 
           src={img} 
@@ -44,8 +44,8 @@ const articles = () => {
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
         <Layout className="pt-16">
-          <AnimatedText text="Some exciting articles..." className="mb-16" />
-          <ul className="grid grid-cols-2 gap-16">
+          <AnimatedText text="Some exciting articles..." className="mb-16lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
+          <ul className="grid grid-cols-2 gap-16 md:flex md:flex-col">
             <FeaturedArticle 
               title="Build A Custom Pagination Component In Reactjs From Scratch"              
               summary="Learn how to build a custom pagination component in ReactJS from scratch. 
