@@ -46,8 +46,8 @@ const about = () => {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">Biography</h2>
               <p className="font-medium">
-                Hi, Im Arnaud, a fullstack developer passionate about creating beautiful, functional, 
-                and user-centered digital experiences. With 3 years of experience in the field. I am always looking for 
+                Hi, Im Arnaud, a full-stack developer passionate about creating beautiful, functional, 
+                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
                 new and innovative ways to bring my clients or employer's visions to life.
               </p>
               <p className="my-4 font-medium">
