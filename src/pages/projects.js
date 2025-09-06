@@ -6,9 +6,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@components/Icons";
 import project1 from "../../public/images/projects/Hero.jpg";
-import project2 from "../../public/images/projects/carhub.jpg";
-import project3 from "../../public/images/projects/youtubeclone.png";
-import project4 from "../../public/images/projects/moodle.png";
+import project2 from "../../public/images/projects/landing1.png";
+import project3 from "../../public/images/projects/carhub.jpg";
+import project4 from "../../public/images/projects/youtubeclone.png";
+import project5 from "../../public/images/projects/moodle.png";
 import { motion } from "framer-motion";
 
 const FramerImage = motion(Image);
@@ -21,7 +22,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     >
       <Link
         href={link}
-        target="_blank"
+        target=""
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
       >
         <FramerImage
@@ -132,10 +133,25 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Trello-Clone"
+                img={project2}
+                summary="Trello-Clone is a simplified project management tool inspired by Trello, built with React, @dnd-kit, and Tailwind CSS.
+It allows users to organize their workflow using columns and draggable task cards, providing an intuitive and modern Kanban-style interface.
+
+With drag & drop functionality powered by @dnd-kit, users can easily move tasks between columns such as To Do, In Progress, Code Review, QA, and Done.
+
+The project also includes a stylish landing page and a responsive layout, making it a solid foundation for learning or extending into a fully featured productivity app."
+                link="https://trello-clone-azure-alpha.vercel.app/"
+                github="https://github.com/arnaud-vanderschriek/trello-clone"
+                type="Featured Project"
+              />
+            </div>
             <div className="col-span-6 sm:col-span-12">
               <Projects
                 title="Car Hub Provider"
-                img={project2}
+                img={project3}
                 link="https://next-js-car-hub-rose.vercel.app/"
                 github="https://github.com/arnaud-vanderschriek/nextJsCarHub"
                 type="Featured Project"
@@ -144,7 +160,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Projects
                 title="YouTube Clone"
-                img={project3}
+                img={project4}
                 link="https://react-youtube-clone-two.vercel.app/"
                 github="https://github.com/arnaud-vanderschriek/react_youtube_clone"
                 type="Featured Project"
@@ -153,7 +169,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Moodle (front part)"
-                img={project4}
+                img={project5}
                 summary="..."
                 link="Not online for now, let's check my project on GitHub."
                 github="https://github.com/arnaud-vanderschriek/moodle/tree/main/front"
@@ -163,7 +179,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Projects
                 title="Moodle (back-end part)"
-                img={project4}
+                img={project5}
                 link="Not online for now, let's check my project on GitHub."
                 github="https://github.com/arnaud-vanderschriek/moodle_api_asp.net"
                 type="Featured Project"
