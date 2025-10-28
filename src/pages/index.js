@@ -1,12 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from "next/link"
-import Layout from '@/components/Layout';
-import ProfilePicture from "../../public/images/profile/a_hacker_with_b_0-transformed.png"
-import AnimatedText from "@/components/AnimatedText"
-import {LinkArrow}from "@/components/Icons"
-import HireMe from "@/components/HireMe"
-
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import Layout from "@/components/Layout";
+import ProfilePicture from "../../public/images/profile/a_hacker_with_b_0-transformed.png";
+import AnimatedText from "@/components/AnimatedText";
+import { LinkArrow } from "@/components/Icons";
+import HireMe from "@/components/HireMe";
 
 export default function Home() {
   return (
@@ -19,24 +18,31 @@ export default function Home() {
         <Layout className="pt-0 md:p-16 sm:pt-8 flex items-center ">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 md:w-full">
-              <Image src={ProfilePicture} alt="Vanderschrieck Arnaud" className="w-full h-auto lg:hidden  md:inline-block md:w-full sm:mb-8" 
+              <Image
+                src={ProfilePicture}
+                alt="Vanderschrieck Arnaud"
+                className="w-full h-auto lg:hidden  md:inline-block md:w-full sm:mb-8"
                 priority
-                sizes='(max-width: 768px) 100vw, 
+                sizes="(max-width: 768px) 100vw, 
                 (max-width: 1200px) 50vw, 
-                50vw'
-
+                50vw"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
-              <AnimatedText text="Arnaud Vanderschrieck" className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"/>
+              <AnimatedText
+                text="Arnaud Vanderschrieck"
+                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
+              />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
-                Explore my latest projects and articles, showcasing my expertise in React.js, Nodejs and Nextjs.
+                As a skilled full-stack developer, I am dedicated to turning
+                ideas into innovative web applications. Explore my latest
+                projects and articles, showcasing my expertise in React.js,
+                Nodejs and Nextjs.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
-                <Link 
-                  href="/vds.pdf" 
-                  target={"_blank"} 
+                <Link
+                  href="/vds.pdf"
+                  target={"_blank"}
                   className="flex items-center bg-dark text-light dark:bg-light dark:text-dark p-2.5 px-6 rounded-lg 
                   text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent 
                   hover:border-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"
@@ -44,8 +50,8 @@ export default function Home() {
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
-                <Link 
-                  href="mailto:arnaud.vanderschrieck@gmail.com" 
+                <Link
+                  href="mailto:arnaud.vanderschrieck@gmail.com"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark dark:text-light underline md:text-base"
                 >
@@ -58,5 +64,5 @@ export default function Home() {
         <HireMe />
       </main>
     </>
-  )
+  );
 }
