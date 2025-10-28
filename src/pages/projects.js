@@ -133,6 +133,21 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Trello-Clone"
+                img={project2}
+                summary="Trello-Clone is a simplified project management tool inspired by Trello, built with React, @dnd-kit, and Tailwind CSS.
+It allows users to organize their workflow using columns and draggable task cards, providing an intuitive and modern Kanban-style interface.
+
+With drag & drop functionality powered by @dnd-kit, users can easily move tasks between columns such as To Do, In Progress, Code Review, QA, and Done.
+
+The project also includes a stylish landing page and a responsive layout, making it a solid foundation for learning or extending into a fully featured productivity app."
+                link="https://trello-clone-azure-alpha.vercel.app/"
+                github="https://github.com/arnaud-vanderschriek/trello-clone"
+                type="Featured Project"
+              />
+            </div>
             <div className="col-span-6 sm:col-span-12">
               <Projects
                 title="Trello-Clone"
